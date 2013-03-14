@@ -1,5 +1,7 @@
 Rsl example for IntelliJ
 
+For testing rsl, put contents of rslStuff folder to some localhost and change the paths in my-rsl-config.xml
+
 When no compiler options are passed the project is compiling perfectly.
 
 When -load-config+=my-rsl-config.xml is put I get  this:
