@@ -1,0 +1,19 @@
+Rsl example for IntelliJ
+
+When no compiler options are passed the project is compiling perfectly.
+
+When -load-config+=my-rsl-config.xml is put I get  this:
+
+compile time:
+
+[RedSquare]: /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/java -d32 -Dapplication.home=/Users/matej/Documents/Projects/Work/SDKs/Flex4.6.0_AIR3.5 -Xmx384m -Dsun.io.useCanonCaches=false -Dfile.encoding=UTF-8 -Djava.awt.headless=true -Duser.language=en -Duser.region=en -Xmx512m -classpath /Applications/IntelliJ IDEA 12.app/plugins/flex/lib/idea-flex-compiler-fix.jar:/Users/matej/Documents/Projects/Work/SDKs/Flex4.6.0_AIR3.5/lib/compc.jar flex2.tools.Mxmlc -load-config=/private/var/folders/t0/02hz_79n70nc4qxswkmkwjt80000gp/T/IntelliJ_IDEA/idea-A3F94889-E88ABC0.xml -load-config+=my-rsl-config.xml
+
+
+and on mouse over the red square
+
+[Fault] exception, information=ReferenceError: Error #1065: Variable com.greensock::TweenLite is not defined.
+at RedSquare/onOver()[/Users/matej/Documents/Projects/Work/RedSquare/src/RedSquare.as:52]
+
+rsls are in the correct path, accessible
+
+This file was modified by IntelliJ IDEA 12.0.4 for binding GitHub repository
