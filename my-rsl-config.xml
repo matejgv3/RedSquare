@@ -1,0 +1,34 @@
+
+
+
+
+<flex-config xmlns="http://www.adobe.com/2006/flex-config">
+
+    <compiler>
+        <preloader>mx.preloaders.SparkDownloadProgressBar</preloader>
+    </compiler>
+
+    <!--<compiler>
+        <preloader>../assets/loader_animation.swf</preloader>
+    </compiler>-->
+
+   <!-- A list of runtime shared library URLs to be loaded before applications start. -->
+   <!-- GreenSock -->
+   <runtime-shared-library-path>
+    <path-element>/Users/matej/Documents/Projects/Work/RedSquare/lib/greensock.swc</path-element>
+    <rsl-url>http://localhost/~matej/rsls/library.swf</rsl-url>
+    <policy-file-url>http://localhost/~matej/rsls/crossdomain.xml</policy-file-url>
+
+	</runtime-shared-library-path>
+
+
+
+
+
+
+
+
+   
+
+</flex-config>
+
